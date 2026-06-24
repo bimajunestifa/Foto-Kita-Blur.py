@@ -1,17 +1,31 @@
 # ✌️ Peace Blur Detector
 
-A simple Computer Vision project that automatically blurs your webcam when a peace sign (✌️) is detected.
+A Computer Vision project that automatically blurs the webcam feed when a peace sign (✌️) is detected.
 
 Built using Python, OpenCV, and MediaPipe.
 
-## Features
+## 📌 Overview
 
-- Real-time webcam detection
-- Peace sign recognition
-- Automatic full-screen blur effect
-- Lightweight and beginner-friendly project
+Peace Blur Detector is a real-time hand gesture recognition project that uses MediaPipe Hand Tracking and OpenCV image processing. When the system detects a peace sign gesture, the webcam view is automatically blurred.
 
-## Installation
+This project was created as a learning project to explore Computer Vision, hand gesture recognition, and real-time image processing with Python.
+
+## ✨ Features
+
+* Real-time webcam detection
+* Peace sign (✌️) recognition
+* Automatic full-screen blur effect
+* Fast and lightweight processing
+* Beginner-friendly code structure
+* Built with modern Computer Vision tools
+
+## 🛠️ Tech Stack
+
+* Python 3.11
+* OpenCV
+* MediaPipe
+
+## 📦 Installation
 
 Clone this repository:
 
@@ -26,47 +40,61 @@ Install dependencies:
 py -m pip install -r requirements.txt
 ```
 
-## Run
+## ▶️ Run the Project
 
 ```bash
 py blur.py
 ```
 
-If you use VS Code, make sure the selected interpreter is Python 3.11.
+If you are using VS Code, make sure the selected interpreter is Python 3.11.
 
 Press `ESC` to close the application.
 
-## Tech Stack
+## 📖 How It Works
 
-- Python
-- OpenCV
-- MediaPipe
+1. The webcam captures live video.
+2. MediaPipe detects hand landmarks.
+3. The program analyzes finger positions.
+4. When a peace sign (✌️) is detected:
 
-## Project Description
+   * The camera feed is blurred automatically.
+5. When the gesture disappears:
 
-This project uses MediaPipe Hand Tracking and OpenCV to detect hand gestures from a webcam feed. When a peace sign (✌️) is detected, the camera view is automatically blurred in real time.
+   * The video returns to normal.
 
-The project is designed for learning Computer Vision concepts, gesture recognition, and real-time image processing using Python.
+## 🎯 Learning Objectives
 
-## About Me
+This project was developed to learn:
 
-Hi, I'm **Bima Junestifa** 👋
+* Computer Vision fundamentals
+* Hand tracking with MediaPipe
+* Image processing using OpenCV
+* Real-time video analysis
+* Python application development
 
-A Software Engineering student who is passionate about:
+## 👨‍💻 About the Developer
 
-- Python Programming
-- Cybersecurity
-- Computer Vision
-- Web Development
-- Open Source Projects
+Hi, I'm **Bima Junestifa**.
 
-## Contact
+An SMK student majoring in Software and Game Development (PPLG) who enjoys learning and building projects in:
 
-📷 Instagram: **@bima_junestifa17**
+* Python Programming
+* Cybersecurity
+* Computer Vision
+* Web Development
+* Open Source Development
 
-## License
+This project is part of my learning journey and portfolio as a student developer.
 
-This project is open-source and available for educational purposes.
+## 📬 Contact
+
+Instagram: **@bima_junestifa17**
+
+GitHub: **github.com/bimajunestifa**
+
+## 📄 License
+
+This project is open-source and intended for educational and learning purposes.
 
 ---
 
